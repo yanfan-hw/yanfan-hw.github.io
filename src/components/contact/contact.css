@@ -36,6 +36,40 @@
     font-size: 0.8rem;
 }
 
+.is-loading {
+    pointer-events: none;
+}
+
+.spiner {
+    display: block;
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: solid .12rem #80808f;
+    margin-top: -5px;
+    border-bottom-color:#1f1f38;
+    animation: .8s linear infinite spinner;
+    transform: translate(-50%, -50%);
+    will-change: transform;
+}
+
+.txt {
+    margin-left: 2rem;
+    font-size: 0.8rem;
+}
+
+/* spinner animation */
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 form {
     display: flex;
     flex-direction: column;
