@@ -10,6 +10,34 @@ header {
     position: relative;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.typing {
+    width: 22ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing 4s steps(22) infinite alternate, blink .5s step-end infinite alternate;
+    font-size: 0.9rem;
+}
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+}
+
 /*----- CTA -----*/
 .cta {
     margin-top: 2rem;
