@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7b1d9e6d.css",
-    "main.js": "/static/js/main.2fbc76c7.js",
-    "static/media/me.png": "/static/media/me.88c2232e64f8354e13c6.png",
+    "main.js": "/static/js/main.79c06873.js",
+    "static/media/me.png": "/static/media/me.22124cff3d5bb7223d50.png",
     "static/media/huynhhaihung-resume.pdf": "/static/media/huynhhaihung-resume.3737d86a29121207792f.pdf",
     "static/media/me-about.jpg": "/static/media/me-about.9c4f22195ea01628095c.jpg",
     "static/media/portfolio2.jpg": "/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
@@ -10,10 +10,10 @@
     "static/media/portfolio3.jpg": "/static/media/portfolio3.cbab42559fe73e73906f.jpg",
     "index.html": "/index.html",
     "main.7b1d9e6d.css.map": "/static/css/main.7b1d9e6d.css.map",
-    "main.2fbc76c7.js.map": "/static/js/main.2fbc76c7.js.map"
+    "main.79c06873.js.map": "/static/js/main.79c06873.js.map"
   },
   "entrypoints": [
     "static/css/main.7b1d9e6d.css",
-    "static/js/main.2fbc76c7.js"
+    "static/js/main.79c06873.js"
   ]
 }
